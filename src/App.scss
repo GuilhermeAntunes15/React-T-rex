@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+
+.App {
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background: #fff; // deixa branco para inverte a cor e fica certo
+  transition: filter 1s;
+
+  .title {
+    font-size: 2em;
+    font-family: "Press Start 2P", cursive;
+    margin: 16px;
+    color: #535353;
+  }
+
+  .sub-title {
+    font-size: 1em;
+    font-family: "Press Start 2P", cursive;
+    margin: 8px 0 0 auto;
+    color: #535353;
+  }
+}
